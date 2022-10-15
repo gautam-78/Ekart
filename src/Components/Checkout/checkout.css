@@ -1,0 +1,33 @@
+.checkout-container {
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  padding-left: 1rem;
+}
+.shipping-text {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+.text {
+  font-size: 1.2rem;
+}
+.btn {
+  margin: 5px 0;
+}
+.order-btn {
+  margin: 1rem 0;
+}
+
+textarea {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  max-width: 400px;
+}
+label {
+  padding-left: 0.5rem;
+  font-size: 1.1rem;
+}
+label span {
+  font-weight: bold;
+  padding-left: 5px;
+}

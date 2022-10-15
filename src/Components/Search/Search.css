@@ -1,0 +1,25 @@
+.card {
+  width: 400px;
+  margin: 1rem auto;
+}
+
+.delete-icon {
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: flex-start;
+  color: red;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .product-container {
+    border: 1px solid green;
+    padding: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 350px;
+  }
+}
