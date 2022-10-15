@@ -8,7 +8,7 @@
 
 ## How to make your first pull request?
 
-**1.** Fork [this](https://github.com/wasimreja/book-finder) repository.
+**1.** Fork [this](https://github.com/gautam-78/Ekart) repository.
 
 **2.** Clone your forked copy of the project.
 
