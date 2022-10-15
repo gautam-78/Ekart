@@ -112,7 +112,7 @@ function Login() {
             className="btn-block"
             size="large"
             type="primary"
-            style={{ width: "200px" }}
+            style={{ width: "200px", backgroundColor: '#EA047E', borderRadius:'10px' }}
           >
             Login
           </Button>
