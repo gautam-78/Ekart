@@ -136,7 +136,7 @@ function Register() {
   return (
     <>
       <Header />
-      <div className="flex-container" style={{ backgroundColor: "#eee" }}>
+      <div className="flex-container" style={{ backgroundColor: "#00ABB3" }}>
         <div className="container">
           <h1>Make an account</h1>
           <Space direction="vertical" style={{ width: "80%" }}>
