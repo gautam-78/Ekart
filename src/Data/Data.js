@@ -53,5 +53,15 @@ const Data = [
     id: 6,
     qty: 1,
   },
+  {
+    product: "Nike Renew Run",
+    category: "RUNNING",
+    img: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8439f823-86cf-4086-81d2-4f9ff9a66866/air-max-90-big-kids-shoe-1wzwJM.jpg",
+    price: "₹700",
+    rating: "⭐⭐⭐⭐⭐",
+    id: 7,
+    qty: 1,
+    
+  },
 ];
 export default Data;
