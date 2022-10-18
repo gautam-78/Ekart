@@ -55,4 +55,61 @@
   .nav-links {
     flex: 0.9;
   }
+}.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  z-index: 10;
+  border-bottom: 2px solid #eee;
+  width: 100%;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  flex: 0.2;
+  justify-content: space-evenly;
+}
+.searchbar {
+  width: 500px;
+}
+.user-profile-container {
+  /* border: 1px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex: 1;
+}
+.profilepic {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+}
+.profilepic img {
+  height: 30px;
+  width: 30px;
+  /* border: 1px solid red; */
+  margin-left: 5px;
+  border-radius: 50%;
+}
+.profilepic p {
+  padding: 0 5px;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-links {
+    flex: 0.6;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .nav-bar{
+    /* border: 1px solid red; */
+    padding: 0.5rem 5px;
+  }
+  
+  .nav-links {
+    flex: 0.9;
+  }
 }
