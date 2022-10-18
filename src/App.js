@@ -7,7 +7,6 @@ import CheckoutPage from "./Components/Checkout/CheckoutPage";
 import Thanks from "./Components/Thanks/Thanks";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ProductPage from "./Components/Search/ProductPage";
-import Footer from "./Components/Footer/Footer";
 import { useState } from "react";
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);

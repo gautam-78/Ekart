@@ -13,8 +13,8 @@ function Header({ searchText, Search, productPage, searchBarHandle }) {
     <div>
       <div className="nav-bar">
         <div className="nav-logo">
-          <h2>Ekart</h2>
-        </div>
+        <img src="icon.svg" />
+          </div>
         {productPage ? (
           <div className="searchbar">
             <Input.Search
